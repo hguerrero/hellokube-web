@@ -1,0 +1,52 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "Hello Kube"
+
+theme = "hugo-theme-okayish-blog"
+copyright = "© 2020 Hugo Guerrero"
+
+# Provide this id to enable Google Analytics
+googleAnalytics = "UA-186035148-1"
+
+# Provide the shortname to enable Disqus comments
+disqusShortname = "hellokube-dev"
+
+[params]
+# These will be used for OpenGraph, Twitter Card and Schema.org
+description = "This is my little place to share developer experiences while using Kubernetes"
+keywords = ["some", "keywords", "for", "your", "site"]
+images = ["/images/banner.png"]
+
+# This is the number of terms within a taxonomy per page
+termsPaginate = 50
+# Enable/disable share links (Facebook, Twitter and LinkedIn)
+shareLinksEnabled = true
+# Enable/disable Google Analytics in local server
+gaLocalEnabled = false
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# Add `author` under `[taxonomies]` as below
+# so that you can provide metadata for each author
+#
+# See: https://gohugo.io/content-management/taxonomies/#add-custom-metadata-to-a-taxonomy-term
+#author = "authors"
+
+# Add menu items to the navigation bar as below.
+# N.B. Use identifiers as the keys for translations.
+[menu]
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 2
