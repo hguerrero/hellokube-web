@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://hellokube.dev/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Hello Kube"
@@ -15,7 +15,7 @@ disqusShortname = "hellokube-dev"
 [params]
 # These will be used for OpenGraph, Twitter Card and Schema.org
 description = "This is my little place to share developer experiences while using Kubernetes"
-keywords = ["some", "keywords", "for", "your", "site"]
+keywords = ["kubernetes", "k8s", "kube", "developer", "devops"]
 images = ["/images/banner.png"]
 
 # This is the number of terms within a taxonomy per page
@@ -42,11 +42,11 @@ tag = "tags"
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
-url = "/categories"
+url = "/categories/"
 weight = 1
 
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "/about"
+url = "/about/"
 weight = 2
