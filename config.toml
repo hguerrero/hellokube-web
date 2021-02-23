@@ -16,7 +16,7 @@ disqusShortname = "hellokube-dev"
 # These will be used for OpenGraph, Twitter Card and Schema.org
 description = "This is my little place to share developer experiences while using Kubernetes"
 keywords = ["kubernetes", "k8s", "kube", "developer", "devops"]
-images = ["/images/banner.png"]
+images = ["/images/wsl2.png"]
 
 # This is the number of terms within a taxonomy per page
 termsPaginate = 50

@@ -4,7 +4,7 @@ title: "A Developer's Journey to WSL2 Awesomeness"
 slug: "developers-journey-to-wsl2-awesomeness"
 author: "Hugo Guerrero"
 tags: ["wsl2", "windows", "linux", "docker", "vscode","development"]
-date: 2021-02-15T09:21:51-05:00
+date: "2021-02-15"
 avatarUrl: "hugo-guerrero.png"
 ---
 

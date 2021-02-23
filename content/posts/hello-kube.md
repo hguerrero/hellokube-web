@@ -4,7 +4,7 @@ title: "Hello Hello Kube"
 slug: "hello-kube"
 author: "Hugo Guerrero"
 tags: ["hello kube"]
-date: 2021-02-01T09:21:51-05:00
+date: "2021-02-01"
 avatarUrl: "hugo-guerrero.png"
 ---
 
