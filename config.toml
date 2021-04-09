@@ -4,7 +4,7 @@ defaultContentLanguage = "en-us"
 title = "Hello Kube"
 
 theme = "hugo-theme-okayish-blog"
-copyright = "© 2020 Hugo Guerrero"
+copyright = "© 2021 Hugo Guerrero"
 
 # Provide this id to enable Google Analytics
 googleAnalytics = "UA-186035148-1"
