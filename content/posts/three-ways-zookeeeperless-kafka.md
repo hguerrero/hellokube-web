@@ -15,7 +15,6 @@ tags:
   ]
 date: "2022-01-03"
 avatarUrl: "hugo-guerrero.png"
-draft: true
 ---
 
 There has been a couple of years since the announcement of the removal of [Apache Zookeeper](https://zookeeper.apache.org/) as a dependency to manage [Apache Kafka](https://kafka.apache.org/) metadata. Since version 2.8, we now can run a Kafka cluster without Zookeeper. This article will go over three easy ways to get started with a single node cluster using [containers](https://www.redhat.com/en/topics/containers).
