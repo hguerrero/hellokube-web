@@ -6,7 +6,6 @@ author: "Hugo Guerrero"
 tags: ["kubernetes", "docker", "minikube","kind","k3d"]
 date: "2021-04-09"
 avatarUrl: "hugo-guerrero.png"
-draft: true
 ---
 
 In the past, running a Kubernetes cluster on your laptop required several servers to get started or running heavyweight Virtual Machines in your local environment. Different projects began in recent years to make it easier to get started with Kubernetes in your computer and remove the dependency with VMs. This post will cover 3 of them to help you o get started with Kubernetes on your laptop just by using Docker.

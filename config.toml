@@ -14,7 +14,7 @@ disqusShortname = "hellokube-dev"
 
 [params]
 # These will be used for OpenGraph, Twitter Card and Schema.org
-description = "This is my little place to share developer experiences while using Kubernetes"
+description = "This is my little place to share developer experiences while using Kubernetes & containers"
 keywords = ["kubernetes", "k8s", "kube", "developer", "devops"]
 images = ["/images/wsl2.png"]
 
