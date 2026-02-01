@@ -4,7 +4,7 @@ defaultContentLanguage: en-us
 title: Hello Kube
 theme: PaperMod
 copyright: © 2026 Hugo Guerrero
-googleAnalytics: G-LREQ1K7T50
+googleAnalytics: G-L0LXDYWHZB
 
 enableEmoji: true
 enableRobotsTXT: true
@@ -95,7 +95,7 @@ params:
       url: https://www.youtube.com/@hguerreroo
   analytics:
     google:
-      SiteVerificationTag: G-LREQ1K7T50
+      SiteVerificationTag: G-L0LXDYWHZB
   cover:
     hidden: false
     hiddenInList: false
