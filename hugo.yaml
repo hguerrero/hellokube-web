@@ -1,0 +1,158 @@
+baseURL: https://hellokube.dev/
+languageCode: en-us
+defaultContentLanguage: en-us
+title: Hello Kube
+theme: PaperMod
+copyright: © 2026 Hugo Guerrero
+googleAnalytics: G-L0LXDYWHZB
+
+enableEmoji: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Hello Kube
+  description:
+    This is my little place to share developer experiences while using
+    Kubernetes & containers
+  keywords:
+    - kubernetes
+    - k8s
+    - kube
+    - developer
+    - devops
+  author: Hugo Guerrero
+  images:
+    - /images/wsl2.png
+  DateFormat: January 2, 2006
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "reddit", "facebook"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: /images/favicon.ico
+
+  homeInfoParams:
+    Title: "👋 Welcome to Hello Kube"
+    Content: >
+      **Developer. Cloud Native Enthusiast. Kubernetes Advocate.**
+
+
+      I'm a developer turned *dust fairy* ✨ sprinkling joy over developers struggling with **Kubernetes**, **containers**, and **cloud-native technologies**.
+
+
+      Here you'll find practical tutorials and hands-on guides covering:
+
+      - 🚢 **Kubernetes** - Minikube, KinD, K3d, and production patterns
+
+      - 📦 **Containers** - Docker, Podman, and container runtimes
+
+      - ⚡ **Event Streaming** - Apache Kafka and messaging systems
+
+      - 🛠️ **Developer Tools** - WSL2, local development environments
+
+      - ☁️ **Cloud Native** - Best practices and real-world experiences
+
+
+      Whether you're just starting your cloud-native journey or looking to level up your Kubernetes skills, you'll find something useful here. 
+
+
+      **Let's build something amazing together!** 🚀
+
+  socialIcons:
+    - name: twitter
+      url: https://twitter.com/hellokube
+    - name: github
+      url: https://github.com/hguerrero
+    - name: twitter
+      url: https://twitter.com/hguerreroo
+    - name: linkedin
+      url: https://www.linkedin.com/in/hugoguerrero/
+    - name: youtube
+      url: https://www.youtube.com/@hguerreroo
+  analytics:
+    google:
+      SiteVerificationTag: G-L0LXDYWHZB
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+  editPost:
+    URL: ""
+    Text: ""
+    appendFilePath: false
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+taxonomies:
+  category: categories
+  tag: tags
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 4
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+services:
+  disqus:
+    shortname: hellokube-dev
